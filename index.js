@@ -5,7 +5,7 @@ const readLine = require('readline').createInterface({
 });
 /**
  * @param {These is the array that will be iterated by the function} arrayOfPlayers 
- * @param {The number that will be compared with the sum of the inches of the two players} n 
+ * @param {The number that will be compared with the sum of the inches of the two players} numberToCompare
  */
 const compare = (arrayOfPlayers, numberToCompare) => {
   arrayOfPlayers.forEach((player,index) => {
